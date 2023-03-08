@@ -1,0 +1,33 @@
+{
+  "name": "@erkoware/lint-config",
+  "version": "0.1.0",
+  "description": "Default linter and format rules",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erkoware/lint-config.git"
+  },
+  "keywords": [
+    "lint",
+    "format",
+    "prettier",
+    "eslint"
+  ],
+  "author": "lotze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erkoware/lint-config/issues"
+  },
+  "homepage": "https://github.com/erkoware/lint-config#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  }
+}
