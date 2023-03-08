@@ -1,7 +1,7 @@
 {
-  "name": "@erkoware/lint-config",
+  "name": "@erkoware/eslint-config-ts",
   "version": "0.1.0",
-  "description": "Default linter and format rules",
+  "description": "Default linter and format rules for typescript projects",
   "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,7 @@
     "prettier",
     "eslint"
   ],
-  "author": "lotze",
+  "author": "l0tze",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/erkoware/lint-config/issues"
