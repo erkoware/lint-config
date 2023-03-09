@@ -1,0 +1,28 @@
+{
+    "name": "@erkoware/prettier-config",
+    "version": "1.0.0",
+    "description": "Default format rules ",
+    "main": "index.json",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/erkoware/typescript-style.git"
+    },
+    "keywords": [
+        "prettier",
+        "formatting",
+        "erkoware",
+        "style-guide",
+        "code-style"
+    ],
+    "author": "l0tze <lorenz.goetz@erkoware.de>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/erkoware/typescript-style/issues"
+    },
+    "homepage": "https://github.com/erkoware/typescript-style#readme",
+    "peerDependencies": {
+      "prettier": ">=2.8.0"
+
+      
+    }
+}

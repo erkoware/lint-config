@@ -1,0 +1,36 @@
+{
+    "name": "@erkoware/eslint-config-ts-foalts",
+    "version": "0.1.0",
+    "description": "Default linter and format rules for FoalTS projects",
+    "main": "eslint-config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/erkoware/typescript-style.git"
+    },
+    "keywords": [
+        "lint",
+        "format",
+        "prettier",
+        "eslint"
+    ],
+    "author": "l0tze",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/erkoware/typescript-style/issues"
+    },
+    "homepage": "https://github.com/erkoware/typescript-style#readme",
+    "dependencies": {
+        "@erkoware/eslint-config-ts": "^0.1.0"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.54.1",
+        "eslint": "^8.35.0",
+        "eslint-config-prettier": "^8.7.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": ">=2.8.0"
+    }
+}

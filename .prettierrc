@@ -1,8 +1,1 @@
-{
-    "printWidth": 100,
-    "tabWidth": 4,
-    "singleQuote": true,
-    "arrowParens": "avoid",
-    "vueIndentScriptAndStyle": true,
-    "overrides": [{ "files": [".prettierrc", ".eslintrc"], "options": { "parser": "json" } }]
-}
+"@erkoware/prettier-config"

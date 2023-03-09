@@ -4,11 +4,16 @@ This repository contains the formatting and lint rules used by Erkoware.
 
 ## Usage
 
-Install the package:
+### ESLint
 
+Install the package matching your project:
+
+- Typescript: `@erkoware/eslint-config-ts`
+- FoalTS: `@erkoware/eslint-config-foalts`
+- Vue: `@erkoware/eslint-config-vue`
 
 ```bash
-npm install --save-dev @erkoware/lint-config
+npm install --save-dev @erkoware/eslint-config-ts
 ```
 
 Then, in your 'eslintrc.js' file, add the following line:
@@ -20,8 +25,10 @@ Then, in your 'eslintrc.js' file, add the following line:
 
 ```
 
+### Prettier
+
 and in your '.prettierrc' file, add the following line:
 
 ```txt
-"@erkoware/lint-config"
+"@erkoware/prettier-config"
 ```
