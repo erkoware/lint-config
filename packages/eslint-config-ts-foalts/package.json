@@ -25,6 +25,9 @@
     "dependencies": {
         "@erkoware/eslint-config-ts": "^0.1.0"
     },
+    "publishConfig": {
+      "access": "public"
+    },
     "peerDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.54.1",
         "eslint": "^8.35.0",
