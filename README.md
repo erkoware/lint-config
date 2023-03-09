@@ -1,6 +1,6 @@
-# Erkoware Formatting and Lint Rules
+# [erkoware](https://www.erkoware.de) Formatting and Lint Rules
 
-This repository contains the formatting and lint rules used by Erkoware.
+This repository contains the formatting and lint rules used by [erkoware](https://www.erkoware.de).
 
 ## Usage
 
@@ -8,15 +8,15 @@ This repository contains the formatting and lint rules used by Erkoware.
 
 Install the package matching your project:
 
-- Typescript: `@erkoware/eslint-config-ts`
-- FoalTS: `@erkoware/eslint-config-foalts`
-- Vue: `@erkoware/eslint-config-vue`
+- [TypeScript](https://www.typescriptlang.org): `@erkoware/eslint-config-ts`
+- [FoalTS](https://foalts.org): `@erkoware/eslint-config-foalts`
+- [Vue.js](https://vuejs.org): `@erkoware/eslint-config-vue`
 
 ```bash
 npm install --save-dev @erkoware/eslint-config-ts
 ```
 
-Then, in your 'eslintrc.js' file, add the following line:
+Then, in your `.eslintrc.js` file, add the following line:
 
 ```js
 {
@@ -27,7 +27,7 @@ Then, in your 'eslintrc.js' file, add the following line:
 
 ### Prettier
 
-and in your '.prettierrc' file, add the following line:
+and in your `.prettierrc` file, add the following line:
 
 ```txt
 "@erkoware/prettier-config"
