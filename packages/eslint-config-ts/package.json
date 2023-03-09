@@ -1,6 +1,6 @@
 {
     "name": "@erkoware/eslint-config-ts",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Default linter and format rules for typescript projects",
     "main": "eslint-config.js",
     "scripts": {
