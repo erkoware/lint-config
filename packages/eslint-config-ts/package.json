@@ -22,6 +22,9 @@
         "url": "https://github.com/erkoware/typescript-style/issues"
     },
     "homepage": "https://github.com/erkoware/typescript-style#readme",
+    "publishConfig": {
+      "access": "public"
+    },
     "peerDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.54.1",
         "eslint": "^8.35.0",

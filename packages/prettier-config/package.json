@@ -20,6 +20,9 @@
         "url": "https://github.com/erkoware/typescript-style/issues"
     },
     "homepage": "https://github.com/erkoware/typescript-style#readme",
+    "publishConfig": {
+      "access": "public"
+    },
     "peerDependencies": {
       "prettier": ">=2.8.0"
 
