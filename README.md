@@ -1,6 +1,6 @@
-# Erkoware Formatting and Lint Rules
+# [erkoware](https://www.erkoware.de) Formatting and Lint Rules
 
-This repository contains the formatting and lint rules used by Erkoware.
+This repository contains the formatting and lint rules used by [erkoware](https://www.erkoware.de).
 
 ## Usage
 
@@ -16,7 +16,7 @@ Install the package matching your project:
 npm install --save-dev @erkoware/eslint-config-ts
 ```
 
-Then, in your 'eslintrc.js' file, add the following line:
+Then, in your `.eslintrc.js` file, add the following line:
 
 ```js
 {
@@ -27,7 +27,7 @@ Then, in your 'eslintrc.js' file, add the following line:
 
 ### Prettier
 
-and in your '.prettierrc' file, add the following line:
+and in your `.prettierrc` file, add the following line:
 
 ```txt
 "@erkoware/prettier-config"
