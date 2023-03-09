@@ -1,7 +1,7 @@
 {
     "name": "@erkoware/eslint-config-ts-vue",
     "version": "0.1.1",
-    "description": "Default linter and format rules for Vue projects",
+    "description": "Default lint rules for Vue.js projects",
     "main": "eslint-config.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
