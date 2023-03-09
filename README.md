@@ -8,9 +8,9 @@ This repository contains the formatting and lint rules used by [erkoware](https:
 
 Install the package matching your project:
 
-- Typescript: `@erkoware/eslint-config-ts`
-- FoalTS: `@erkoware/eslint-config-foalts`
-- Vue: `@erkoware/eslint-config-vue`
+- [TypeScript](https://www.typescriptlang.org): `@erkoware/eslint-config-ts`
+- [FoalTS](https://foalts.org): `@erkoware/eslint-config-foalts`
+- [Vue.js](https://vuejs.org): `@erkoware/eslint-config-vue`
 
 ```bash
 npm install --save-dev @erkoware/eslint-config-ts
