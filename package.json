@@ -4,7 +4,7 @@
     "description": "Default linter and format rules for typescript projects",
     "main": ".eslintrc.js",
     "scripts": {
-        "publish": "lerna publish"
+        "publish": "lerna publish from-package --yes"
     },
     "repository": {
         "type": "git",
