@@ -1,11 +1,8 @@
 {
-    "name": "@erkoware/eslint-config-ts",
+    "name": "@erkoware/typescript-style",
     "version": "0.1.0",
     "description": "Default linter and format rules for typescript projects",
     "main": ".eslintrc.js",
-    "scripts": {
-        "publish": "lerna publish from-package --yes"
-    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/erkoware/typescript-style.git"
