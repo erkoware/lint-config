@@ -1,7 +1,7 @@
 {
     "name": "@erkoware/eslint-config-ts",
-    "version": "0.1.0",
-    "description": "Default linter and format rules for typescript projects",
+    "version": "0.1.1",
+    "description": "Default lint rules for TypeScript projects",
     "main": "eslint-config.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"

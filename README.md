@@ -19,15 +19,16 @@ npm install --save-dev @erkoware/eslint-config-ts
 Then, in your `.eslintrc.js` file, add the following line:
 
 ```js
+// TypeScript
 {
-  "extends": "@erkoware/lint-config"
+  "extends": "@erkoware/eslint-config-ts"
 }
 
 ```
 
 ### Prettier
 
-and in your `.prettierrc` file, add the following line:
+And in your `.prettierrc` file, add the following line:
 
 ```txt
 "@erkoware/prettier-config"
