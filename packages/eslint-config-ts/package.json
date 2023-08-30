@@ -1,6 +1,6 @@
 {
     "name": "@erkoware/eslint-config-ts",
-    "version": "0.2.0-alpha.0",
+    "version": "0.2.0-alpha.1",
     "description": "Default lint rules for TypeScript projects",
     "main": "eslint-config.js",
     "scripts": {
@@ -26,7 +26,7 @@
         "access": "public"
     },
     "dependencies": {
-        "@erkoware/prettier-config": "^0.2.0-alpha.0"
+        "@erkoware/prettier-config": "^0.2.0-alpha.1"
     },
     "peerDependencies": {
         "@typescript-eslint/eslint-plugin": ">=5.54.1",
