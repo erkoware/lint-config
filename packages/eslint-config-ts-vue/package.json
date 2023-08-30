@@ -1,6 +1,6 @@
 {
     "name": "@erkoware/eslint-config-ts-vue",
-    "version": "0.2.0-alpha.1",
+    "version": "0.2.0-alpha.2",
     "description": "Default lint rules for Vue.js projects",
     "main": "eslint-config.js",
     "scripts": {
