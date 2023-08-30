@@ -23,17 +23,9 @@
     },
     "homepage": "https://github.com/erkoware/typescript-style#readme",
     "dependencies": {
-        "@erkoware/eslint-config-ts": "^0.1.0"
+        "@erkoware/eslint-config-ts": "^0.2.0"
     },
     "publishConfig": {
       "access": "public"
-    },
-    "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.54.1",
-        "eslint": "^8.35.0",
-        "eslint-config-prettier": "^8.7.0",
-        "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-prettier": "^4.2.1",
-        "prettier": ">=2.8.0"
     }
 }
