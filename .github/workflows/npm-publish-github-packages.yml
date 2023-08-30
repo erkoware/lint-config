@@ -4,22 +4,24 @@
 name: Node.js Package
 
 on:
-  push:
-    branches:
-      - 'main'
+    release:
+        types: [published]
+#  push:
+#    branches:
+#      - 'main'
 
 jobs:
-  publish-gpr:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          registry-url: https://npm.pkg.github.com
-      - run: npx lerna publish from-package --yes --registry https://npm.pkg.github.com
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    publish-gpr:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: read
+            packages: write
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 16
+                  registry-url: https://npm.pkg.github.com
+            - run: npx lerna publish from-package --yes --registry https://npm.pkg.github.com
+              env:
+                  NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
