@@ -1,6 +1,6 @@
 {
     "name": "@erkoware/prettier-config",
-    "version": "1.0.1",
+    "version": "0.2.0-alpha.0",
     "description": "Default format rules ",
     "main": "index.json",
     "repository": {
@@ -21,11 +21,9 @@
     },
     "homepage": "https://github.com/erkoware/typescript-style#readme",
     "publishConfig": {
-      "access": "public"
+        "access": "public"
     },
     "peerDependencies": {
-      "prettier": ">=2.8.0"
-
-      
+        "prettier": ">=2.8.0"
     }
 }
