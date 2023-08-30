@@ -21,7 +21,7 @@
     "homepage": "https://github.com/erkoware/typescript-style#readme",
     "devDependencies": {
         "@erkoware/prettier-config": "./packages/prettier-config",
-        "lerna": "^6.5.1"
+        "lerna": "^7.2.0"
     },
     "workspaces": [
         "packages/*"
