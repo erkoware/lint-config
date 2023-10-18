@@ -1,6 +1,6 @@
 {
     "name": "@erkoware/prettier-config",
-    "version": "0.2.0-alpha.3",
+    "version": "0.2.0",
     "description": "Default format rules ",
     "main": "index.json",
     "repository": {
