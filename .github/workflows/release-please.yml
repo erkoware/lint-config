@@ -1,7 +1,6 @@
 on:
   push:
     branches:
-      - main
       - dev
 
 permissions:
@@ -17,6 +16,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v4
         with:
           release-type: node
+          prerelease: true
           target-branch: ${{ github.ref_name }}
       #The logic below handles the npm publication:
       - uses: actions/checkout@v4
