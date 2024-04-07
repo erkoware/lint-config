@@ -1,8 +1,12 @@
 {
-    "name": "@erkoware/typescript-style",
-    "version": "0.1.1",
-    "description": "Default linter and format rules for typescript projects",
-    "main": ".eslintrc.js",
+    "name": "@erkoware/eslint-config-ts",
+    "version": "0.2.0",
+    "description": "Default lint rules for TypeScript projects",
+    "main": "./src/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/erkoware/typescript-style.git"
@@ -19,11 +23,25 @@
         "url": "https://github.com/erkoware/typescript-style/issues"
     },
     "homepage": "https://github.com/erkoware/typescript-style#readme",
-    "devDependencies": {
-        "@erkoware/prettier-config": "./packages/prettier-config",
-        "lerna": "^7.2.0"
+    "publishConfig": {
+        "access": "public"
     },
-    "workspaces": [
-        "packages/*"
-    ]
+    "engines": {
+        "node": "^18.18.0 || ^20.9.0 || >=21"
+    },
+    "peerDependencies": {
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.1.3",
+        "globals": "^15.0.0",
+        "typescript-eslint": "^7.5.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.1.3",
+        "globals": "^15.0.0",
+        "typescript": "^5.4.4",
+        "typescript-eslint": "^7.5.0"
+    }
 }

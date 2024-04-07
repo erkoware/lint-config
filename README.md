@@ -6,30 +6,47 @@ This repository contains the formatting and lint rules used by [erkoware](https:
 
 ### ESLint
 
-Install the package matching your project:
+Install the package
 
-- [TypeScript](https://www.typescriptlang.org): `@erkoware/eslint-config-ts`
-- [FoalTS](https://foalts.org): `@erkoware/eslint-config-foalts`
-- [Vue.js](https://vuejs.org): `@erkoware/eslint-config-vue`
+- [@erkoware/eslint-config-ts](https://www.npmjs.com/package/@erkoware/eslint-config-ts): `@erkoware/eslint-config-ts`
 
 ```bash
 npm install --save-dev @erkoware/eslint-config-ts
 ```
 
-Then, in your `.eslintrc.js` file, add the following line:
+Chose the lint config you want to use.
+
+| Config          | Description                            |
+| --------------- | -------------------------------------- |
+| recommended     | Basic rules applicabel to all projects |
+| foalRecommended | Recommende rules for foal projects     |
+| foalStrict      | Strict rules for foal projects         |
+
+And at it to your `eslint.config.js` file like that.
 
 ```js
-// TypeScript
-{
-  "extends": "@erkoware/eslint-config-ts"
-}
+// @ts-check
+import erkowareTSeslint from '@erkoware/eslint-config-ts';
+
+export default erkowareTSeslint.configs.foalStrict
 
 ```
 
-### Prettier
+## Extending
 
-And in your `.prettierrc` file, add the following line:
+To extend/override a config.
 
-```txt
-"@erkoware/prettier-config"
+```js
+// @ts-check
+import erkowareTSeslint from '@erkoware/eslint-config-ts';
+
+export default [
+    ...erkowareTSeslint.configs.foalStrict,
+    {
+        /* 
+            config goes here
+        */
+    }
+]
+
 ```
