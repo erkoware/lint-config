@@ -1,4 +1,5 @@
 # WIP [erkoware](https://www.erkoware.de) Formatting and Lint Rules
+testing
 
 This repository contains the formatting and lint rules used by [erkoware](https://www.erkoware.de).
 
