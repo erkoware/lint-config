@@ -1,6 +1,6 @@
 {
     "name": "@erkoware/eslint-config-ts",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Default lint rules for TypeScript projects",
     "main": "./src/index.js",
     "type": "module",
